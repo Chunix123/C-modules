@@ -2,7 +2,7 @@
 #include "cJSON.h"
 
 
-#define  _TEST_CJSON_ 1
+#define  _TEST_CJSON_ 0
 
 
 void test_cJSON()
@@ -38,6 +38,8 @@ int main()
 #if _TEST_CJSON_
     test_cJSON();
 #endif
+    
+    
     
     return 0;
 }
